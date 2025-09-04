@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 const sampleProducts = [
-  { id: "p1", title: "Cá mú", price: 285000, desc: "Cá mú bông , dai ngon." , image:"C:\Users\Suz\OneDrive\Desktop\cá mú.jpg" },
-  { id: "p2", title: "Cá cờ mỡ", price: 165000, desc: " Cá béo." },
-  { id: "p3", title: "Cá bóp", price: 270000, desc: "Giày nhẹ, đế êm." },
-  { id: "p4", title: "Cá hố", price: 210000, desc: "Giày nhẹ, đế êm." },
-  { id: "p5", title: "Cá ồ", price: 80000, desc: "Giày nhẹ, đế êm." },
-  { id: "p6", title: "Cá trác", price: 115000, desc: "Giày nhẹ, đế êm." },
-  { id: "p7", title: "Cá dìa bông", price: 255000, desc: "Giày nhẹ, đế êm." },
-  { id: "p8", title: "Cá mó", price: 145000, desc: "Giày nhẹ, đế êm." },
+  { id: "p1", title: "Cá mú", price: 285000, desc: "1kg" , image:"C:\Users\Suz\OneDrive\Desktop\cá mú.jpg" },
+  { id: "p2", title: "Cá cờ mỡ", price: 165000, desc: " 400gr" },
+  { id: "p3", title: "Cá bóp", price: 270000, desc: "500gr" },
+  { id: "p4", title: "Cá hố", price: 210000, desc: "500gr" },
+  { id: "p5", title: "Cá ồ", price: 80000, desc: "300gr" },
+  { id: "p6", title: "Cá trác", price: 115000, desc: "300gr" },
+  { id: "p7", title: "Cá dìa bông", price: 255000, desc: "400gr" },
+  { id: "p8", title: "Cá mó", price: 145000, desc: "300gr" },
 ];
 
 function currency(v) {
@@ -87,7 +87,7 @@ export default function EcommerceApp() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 p-6">
       <header className="max-w-6xl mx-auto flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold">Cửa hàng demo</h1>
+        <h1 className="text-2xl font-bold">Xóm Cá Nẫu</h1>
         <nav className="flex items-center gap-3">
           <button onClick={() => setPage("shop")}>Cửa hàng</button>
           <button onClick={() => setPage("cart")}>Giỏ hàng ({Object.keys(cart).length})</button>
