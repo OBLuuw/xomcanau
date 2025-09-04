@@ -3,7 +3,12 @@ import React, { useState, useEffect } from "react";
 const sampleProducts = [
   { id: "p1", title: "Cá mú", price: 285000, desc: "Cá mú bông , dai ngon." , image:"C:\Users\Suz\OneDrive\Desktop\cá mú.jpg" },
   { id: "p2", title: "Cá cờ mỡ", price: 165000, desc: " Cá béo." },
-  { id: "p3", title: "Cá chim", price: 155000, desc: "Giày nhẹ, đế êm." },
+  { id: "p3", title: "Cá bóp", price: 270000, desc: "Giày nhẹ, đế êm." },
+  { id: "p4", title: "Cá hố", price: 210000, desc: "Giày nhẹ, đế êm." },
+  { id: "p5", title: "Cá ồ", price: 80000, desc: "Giày nhẹ, đế êm." },
+  { id: "p6", title: "Cá trác", price: 115000, desc: "Giày nhẹ, đế êm." },
+  { id: "p7", title: "Cá dìa bông", price: 255000, desc: "Giày nhẹ, đế êm." },
+  { id: "p8", title: "Cá mó", price: 145000, desc: "Giày nhẹ, đế êm." },
 ];
 
 function currency(v) {
